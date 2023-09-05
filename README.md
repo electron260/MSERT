@@ -1,5 +1,3 @@
-# Project README
-
 ## Audio Source Separation and Emotion+Text Transcription
 
 This project is designed to take audio input with multiple speakers and perform the following tasks:
@@ -52,7 +50,9 @@ The project utilizes two distinct models:
 4. Run the Project: Execute the project's main script, specifying the input audio file as follows:
 
     ```bash
+
 python src/main.py --input_audio data/input_audio.wav
+
     ```
 
 These steps will initiate the audio source separation and emotion/text transcription processes.
