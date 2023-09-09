@@ -5050,30 +5050,6 @@ But let it be. Horatio, I am dead;
 Thou livest; report me and my cause aright
 To the unsatisfied.
 *HORATIO*
-e,
-Drink off this potion. Is thy union here?
-Follow my mother.
-pardpardeftab720sa240partightenfactor0
-**cf0 KING CLAUDIUS dies**
-*LAERTES*
-He is justly served;
-It is a poison temper'd by himself.
-Exchange forgiveness with me, noble Hamlet:
-Mine and my father's death come not upon thee,
-Nor thine on me.
-pardpardeftab720sa240partightenfactor0
-**cf0 Dies**
-*HAMLET*
-Heaven make thee free of it! I follow thee.
-I am dead, Horatio. Wretched queen, adieu!
-You that look pale and tremble at this chance,
-That are but mutes or audience to this act,
-Had I but time--as this fell sergeant, death,
-Is strict in his arrest--O, I could tell you--
-But let it be. Horatio, I am dead;
-Thou livest; report me and my cause aright
-To the unsatisfied.
-*HORATIO*
 Never believe it:
 I am more an antique Roman than a Dane:
 Here's yet some liquor left.
@@ -5087,7 +5063,7 @@ Absent thee from felicity awhile,
 And in this harsh world draw thy breath in pain,
 To tell my story.
 pardpardeftab720sa240partightenfactor0
-**cf0 March afar off, and shot within**
+**March afar off, and shot within**
 *OSRIC*
 Young Fortinbras, with conquest come from Poland,
 To the ambassadors of England gives
@@ -5101,13 +5077,13 @@ On Fortinbras: he has my dying voice;
 So tell him, with the occurrents, more and less,
 Which have solicited. The rest is silence.
 pardpardeftab720sa240partightenfactor0
-**cf0 Dies**
+**Dies**
 *HORATIO*
 Now cracks a noble heart. Good night sweet prince:
 And flights of angels sing thee to thy rest!
 Why does the drum come hither?
 pardpardeftab720sa240partightenfactor0
-**cf0 March within**
+**March within**
 *PRINCE FORTINBRAS*
 Where is this sight?
 *HORATIO*
@@ -5164,4 +5140,4 @@ Take up the bodies: such a sight as this
 Becomes the field, but here shows much amiss.
 Go, bid the soldiers shoot.
 pardpardeftab720sa240partightenfactor0
-**cf0 A dead march. Exeunt, bearing off the dead bodies; after which a peal of ordnance is shot off**
+**A dead march. Exeunt, bearing off the dead bodies; after which a peal of ordnance is shot off**
