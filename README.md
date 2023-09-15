@@ -51,8 +51,8 @@ You can test the GOSAI Voice Interaction Module without integrating it into the 
 
 ## TODO List
 
-- [ ] Implement the Emotion Prediction model and integrate it with the module.
-- [ ] Implement the Speaker Feature Extraction model and integrate it with the module.
+- [X] Implement the Emotion Prediction model and integrate it with the module.
+- [X] Implement the Speaker Feature Extraction model and integrate it with the module.
 - [ ] Implement the Speech-to-Text (STT) model and integrate it with the module.
 - [ ] Convert all models to onnx format.
 - [ ] Change some models if the inference time is too long.
