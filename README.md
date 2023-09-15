@@ -1,10 +1,10 @@
 # GOSAI Voice Interaction Module
 
-![GOSAI Logo](https://github.com/GOSAI-DVIC/gosai/raw/main/logo.png)
+![GOSAI Logo](https://avatars.githubusercontent.com/u/98415388?s=200&v=4)
 
 ## Overview
 
-The GOSAI Voice Interaction Module is an integral part of GOSAI, an operating system designed to simplify the creation of augmented reality applications. This module enables developers to incorporate advanced voice interaction capabilities into their augmented reality experiences. By combining three powerful models - a Speech-to-Text (STT) model, a speaker feature extraction model, and an emotion prediction model - this module can extract valuable insights from spoken language. It provides information on the emotion, transcription, and speaker identity associated with any speech input.
+The GOSAI Voice Interaction Module is an integral part of [GOSAI](https://github.com/GOSAI-DVIC/gosai), an operating system designed to simplify the creation of augmented reality applications. This module enables developers to incorporate advanced voice interaction capabilities into their augmented reality experiences. By combining three powerful models - a Speech-to-Text (STT) model, a speaker feature extraction model, and an emotion prediction model - this module can extract valuable insights from spoken language. It provides information on the emotion, transcription, and speaker identity associated with any speech input.
 
 ## Features
 
