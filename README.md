@@ -1,73 +1,64 @@
-## Audio Source Separation and Emotion+Text Transcription
+# GOSAI Voice Interaction Module
 
-This project is designed to take audio input with multiple speakers and perform the following tasks:
+![GOSAI Logo](https://github.com/GOSAI-DVIC/gosai/raw/main/logo.png)
 
-1. **Audio Source Separation:** Separating the input audio into multiple sources, with each source corresponding to one speaker in the recording.
+## Overview
 
-2. **Emotion and Text Transcription:** Processing each audio source separately to transcribe the speech content and generate an emotion embedding vector for each utterance.
+The GOSAI Voice Interaction Module is an integral part of GOSAI, an operating system designed to simplify the creation of augmented reality applications. This module enables developers to incorporate advanced voice interaction capabilities into their augmented reality experiences. By combining three powerful models - a Speech-to-Text (STT) model, a speaker feature extraction model, and an emotion prediction model - this module can extract valuable insights from spoken language. It provides information on the emotion, transcription, and speaker identity associated with any speech input.
 
-The project utilizes two distinct models:
+## Features
 
-1. **Speaker Separation Model:** This model is responsible for separating audio sources and isolating the speech of individual speakers.
+- **Speech-to-Text (STT) Conversion:** Transforms spoken language into text, enabling the system to work with the textual representation of speech.
 
-2. **Speech-to-Emotion (S2(E&T)) Model:** This model takes the separated audio from each speaker and transcribes the speech while also producing emotion embedding vectors to capture the emotional content of the utterances.
+- **Speaker Feature Extraction:** Identifies and extracts unique speaker characteristics, allowing for speaker identification and personalized interactions.
 
-### How It Works
+- **Emotion Prediction:** Analyzes speech to determine the emotional tone, providing valuable insights into the speaker's sentiment.
 
-1. Input Audio: Provide an audio file with multiple speakers speaking simultaneously.
+## Testing Without GOSAI
 
-2. Speaker Separation: The project uses a dedicated model to separate the audio into individual speaker sources. Each source corresponds to a single speaker's voice.
+You can test the GOSAI Voice Interaction Module without integrating it into the GOSAI operating system. This allows you to quickly assess its functionality and capabilities. Follow these steps to get started:
 
-3. Speech-to-Emotion Processing: After separation, each speaker's audio is processed by the S2E model. This model transcribes the speech content and generates emotion embedding vectors, which represent the emotional aspects of what is being said.
+1. **Clone This Repository:**
 
-4. Emotion Analysis: The emotion embedding vectors can be used for various downstream tasks, such as sentiment analysis, emotion recognition, or other applications that require understanding the emotional context of the speech.
-
-### Project Structure
-
-- `data/`: Store input audio files and any necessary data.
-- `models/`: Contains the trained models for speaker separation and emotion transcription.
-- `src/`: Source code for the project.
-  - `speaker_separation.py`: Code for separating audio sources.
-  - `emotion_transcription.py`: Code for transcribing speech and generating emotion embedding vectors.
-- `requirements.txt`: List of dependencies required to run the project.
-- `README.md`: This file, which provides an overview of the project.
-
-### Getting Started
-
-1. Clone this repository to your local machine:
+   Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/electron260/MSERT.git
    ```
-2. Install Dependencies: Use pip to install the required dependencies listed in the requirements.txt file:
+
+2. **Install Dependencies:**
+
+   Install the dependencies required to run the module:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Prepare Input Audio: Place your input audio file in the data/ directory.
+3. **Test the Module:**
 
-4. Run the Project: Execute the project's main script, specifying the input audio file as follows:
-
+    Run the module to test its functionality:
+  
     ```bash
-
-python src/main.py --input_audio data/input_audio.wav
-
+    python main.py
     ```
+  
+    The module will prompt you to enter a path to an audio file. You can use the included sample audio file (`sample.wav`) to test the module. The module will then process the audio file and display the results.
 
-These steps will initiate the audio source separation and emotion/text transcription processes.
+4. **Customize and Experiment:**
 
-## To-Do List
+  Feel free to customize the sample code and experiment with different speech inputs. You can also explore the module's capabilities by modifying the configuration and models as needed.
 
-Here is a list of tasks and milestones to guide the development and improvement of the project:
 
-- [ ] **Implement the Speaker Separation Model:** Develop the model responsible for separating audio sources into individual speakers.
+## TODO List
 
-- [ ] **Train and Fine-Tune the S2(E&T) Model:** Train the Speech-to-Emotion (S2E) Model to transcribe speech and generate emotion embedding vectors. Fine-tune the model for optimal performance.
+- [ ] Implement the Emotion Prediction model and integrate it with the module.
+- [ ] Implement the Speaker Feature Extraction model and integrate it with the module.
+- [ ] Implement the Speech-to-Text (STT) model and integrate it with the module.
+- [ ] Convert all models to onnx format.
+- [ ] Change some models if the inference time is too long.
+- [ ] Create usage examples and tutorials.
+- [ ] Conduct testing and gather user feedback.
+- [ ] Explore potential integration with other GOSAI modules.
 
-- [ ] **Create a User-Friendly CLI:** Develop a user-friendly command-line interface (CLI) that simplifies the process of using the project for audio source separation and emotion transcription.
 
-- [ ] **Add Unit Tests:** Implement unit tests to ensure the reliability and correctness of the codebase.
-
-- [ ] **Provide a Comprehensive User Guide:** Create an extensive user guide that explains how to use the project, showcases examples, and offers guidance on interpreting emotion embedding vectors.
 
